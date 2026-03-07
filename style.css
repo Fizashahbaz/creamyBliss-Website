@@ -1,0 +1,189 @@
+body {
+    overflow-x: hidden;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.btn:hover {
+    background-color: rgb(243, 125, 164);
+    color: white;
+    cursor: pointer;
+}
+
+.ice-cards {
+    position: relative;
+    top: 80px;
+}
+
+.hero-img {
+
+    width: 100%;
+}
+
+
+
+
+.icecream1:hover {
+    background-color: pink;
+    width: 319px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.icecream2:hover {
+    background-color: rgb(216, 190, 154);
+    width: 340px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.icecream3:hover {
+    background-color: rgb(245, 223, 197);
+    width: 340px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.icecream4:hover {
+    background-color: rgb(255, 204, 236);
+    width: 340px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.strewberry {
+    transition: 1.3s ease-in-out;
+    filter: drop-shadow(20px 20px 5px rgba(0, 0, 0, 0.45));
+
+}
+
+.strewberry:hover {
+    transform: scale(1.1);
+
+}
+
+
+.card {
+    /* box-shadow: 0px 4px 15px rgba(0,0,0,0.2); */
+
+    box-shadow: 8px 8px 5px rgb(230, 228, 228);
+
+}
+
+.plus {
+    position: relative;
+    left: 140px;
+    top: 60px;
+}
+
+
+.images {
+    position: relative;
+    top: 40px;
+
+}
+
+b {
+    position: relative;
+    left: 120px;
+
+}
+
+.btn2 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border: 2px solid rgb(230, 87, 111);
+
+}
+
+.btn3 {
+    position: relative;
+    top: 10px;
+}
+
+.orderbtn:hover {
+    background-color: rgb(240, 129, 148);
+}
+
+.premium {
+    position: relative;
+    top: 40px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.cardscope {
+    position: relative;
+    top: 50px;
+}
+
+.orderbtn2 {
+    border-radius: 10px;
+}
+
+.orderbtn2:hover {
+    background-color: rgb(239, 82, 134);
+    color: white;
+    cursor: pointer;
+}
+
+.border-sec {
+    background-color: rgb(255, 197, 207);
+    width: 100%;
+    height: 950px;
+    position: relative;
+
+    top: 40px;
+}
+
+.border-img {
+    width: 100%;
+}
+
+.footer-sec {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    ul {
+        background-color: rgb(247, 157, 172);
+        border: none;
+    }
+}
+
+.swal2-popup {
+    font-family: "Denk One", sans-serif;
+}
+
+.pink {
+    background-color: #ec4899;
+    color: white;
+}
+
+#togglebtn {
+    background: linear-gradient(90deg, #f472b6, #f9a8d4);
+    border: none;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
