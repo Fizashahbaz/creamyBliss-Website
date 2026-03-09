@@ -1,4 +1,4 @@
-html, body {
+ body {
   overflow-x: hidden;
 }
 
@@ -172,19 +172,27 @@ footer {
   transition: all 0.3s ease;
 }
 
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
+
 ::-webkit-scrollbar-track {
-  background-color: rgb(234, 198, 149);
+  background: #dfb4b4;
 }
 
+
 ::-webkit-scrollbar-thumb {
-  background: rgb(228, 58, 86);
+
+background-color: #ec1581;
   border-radius: 10px;
 }
 
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #9a1c55;
+}
 ::selection {
   background: pink;
   color: rgb(16, 15, 15);
